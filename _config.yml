@@ -14,7 +14,7 @@ timezone: 'Asia/Taipei'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://codinglau.github.io
-permalink: :year:month:day:title/
+permalink: :year:month:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
@@ -98,6 +98,24 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: icarus
+
+# Feed
+# In the front-matter of your post, 
+# you can optionally add a description, intro or excerpt setting to write a summary for the post. 
+# Otherwise the summary will default to the excerpt or the first 140 characters of the post.
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
