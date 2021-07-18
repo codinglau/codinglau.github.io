@@ -6,7 +6,7 @@
   <link href="https://codinglau.github.io/atom.xml" rel="self"/>
   
   <link href="https://codinglau.github.io/"/>
-  <updated>2021-07-17T18:02:28.828Z</updated>
+  <updated>2021-07-18T18:17:26.190Z</updated>
   <id>https://codinglau.github.io/</id>
   
   <author>
@@ -17,20 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>JS100-01 Change Background Color</title>
+    <link href="https://codinglau.github.io/20210718/javascript/js100/01-changebackgroundcolor/"/>
+    <id>https://codinglau.github.io/20210718/javascript/js100/01-changebackgroundcolor/</id>
+    <published>2021-07-18T11:16:49.000Z</published>
+    <updated>2021-07-18T18:17:26.190Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;JS100-01 轉換背景顏色&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Web Development" scheme="https://codinglau.github.io/categories/Web-Development/"/>
+    
+    <category term="JavaScript" scheme="https://codinglau.github.io/categories/Web-Development/JavaScript/"/>
+    
+    
+    <category term="JavaScript" scheme="https://codinglau.github.io/tags/JavaScript/"/>
+    
+    <category term="JS100 Challenge" scheme="https://codinglau.github.io/tags/JS100-Challenge/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="https://codinglau.github.io/20210718/hello-world/"/>
     <id>https://codinglau.github.io/20210718/hello-world/</id>
     <published>2021-07-17T18:02:28.828Z</published>
-    <updated>2021-07-17T18:02:28.828Z</updated>
+    <updated>2021-07-18T11:45:22.633Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
     
     
     
