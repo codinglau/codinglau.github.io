@@ -18,23 +18,23 @@ head:
         # when there is not enough space to display full name
         short_name: k
         # The start URL of the web application
-        start_url: 
+        start_url: /
         # The default theme color for the application
-        theme_color: 
+        theme_color: white
         # A placeholder background color for the application page to display
         # before its stylesheet is loaded
-        background_color: 
+        background_color: '#fff'
         # The preferred display mode for the website
         display: standalone
         # Image files that can serve as application icons for different contexts
         icons:
             -
                 # The path to the image file
-                src: ''
+                src: /img/logo.svg
                 # A string containing space-separated image dimensions
-                sizes: ''
+                sizes: 24x24
                 # A hint as to the media type of the image
-                type: 
+                type: image/svg
     # Open Graph metadata
     # https://hexo.io/docs/helpers.html#open-graph
     open_graph:
@@ -210,11 +210,11 @@ sidebar:
     # Left sidebar configurations
     left:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: true
+        sticky: false
     # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
+        sticky: true
 # Sidebar widget configurations
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
@@ -253,16 +253,16 @@ widgets:
                 url: 'https://dribbble.com'
             RSS:
                 icon: fas fa-rss
-                url: /
+                url: /atom.xml
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: toc
         # Whether to show the index of each heading
-        index: true
+        index: false
         # Whether to collapse sub-headings when they are out-of-view
-        collapsed: true
+        collapsed: false
         # Maximum level of headings to show (1-6)
         depth: 3
     # Recommendation links widget configurations
@@ -295,14 +295,14 @@ widgets:
         position: right
         type: tags
     # Google FeedBurner email subscription widget configurations
-    -
+    # -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
+        # position: left
+        # type: subscribe_email
         # Hint text under the email input
-        description: 
+        # description: 
         # Feedburner ID
-        feedburner_id: ''
+        # feedburner_id: ''
     # Google AdSense unit configurations
     # -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -321,9 +321,9 @@ plugins:
     back_to_top: true
     # Baidu Analytics plugin settings
     # https://tongji.baidu.com
-    baidu_analytics:
+    # baidu_analytics:
         # Baidu Analytics tracking ID
-        tracking_id: 
+        # tracking_id: 
     # Bing Webmaster Tools plugin settings
     # https://www.bing.com/toolbox/webmaster/
     bing_webmaster:
@@ -331,7 +331,7 @@ plugins:
         tracking_id: 
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: false
+    # busuanzi: false
     # CNZZ statistics
     # https://www.umeng.com/web
     # cnzz:

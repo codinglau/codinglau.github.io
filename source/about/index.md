@@ -3,9 +3,14 @@ title: About this
 date: 2021-07-18 14:50:24
 ---
 
-{% blockquote Calvin Coolidge %}
-Nothing in the world can take the place of Persistence. Talent will not; nothing is more common than unsuccessful men with talent. Genius will not... Education will not... Persistence and determination alone are omnipotent...
-{% endblockquote %}
+{% raw %}
+<article class="message is-info">
+    <div class="message-body">
+        <p>Nothing in the world can take the place of Persistence. Talent will not; nothing is more common than unsuccessful men with talent. Genius will not... Education will not... Persistence and determination alone are omnipotent...</p>
+        <p class="has-text-right"><b>Calvin Coolidge</b></p>
+    </div>
+</article>
+{% endraw %}
 
 # # Why I started this blog?
 From an irrelevant background to becoming a frontend developer, I would like to share this journey of mine with you all out there who share the same little dream of ours. I am still at the early stage of my journey. There are still tons of knowledge for me to learn and master. While I was looking for an effective way to learn, I figured one of the best ways to learn is to share your knowledge with others.
