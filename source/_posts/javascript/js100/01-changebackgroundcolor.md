@@ -41,21 +41,21 @@ JS100-01 轉換背景顏色
     - [X] [Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
     - [X] [rgb()](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgb())
 
-## Possible Steps
+# Possible Steps
 1. Add a button to the HTML document
 2. Write a function that would return a random color e.g. `rgb(10, 20, 30)` each time when we call it
 3. Select the button using JavaScript
 4. Listen to the `click` event of the selected button
 5. When the button is being clicked, set `<body>`'s background color to the function created in `step 2`
 
-### S1. Add a button to the HTML document
+## S1. Add a button to the HTML document
 {% codeblock HTML Document lang:html %}
 <body>
     <button>click me</button>
 </body>
 {% endcodeblock %}
 
-### S2. Write a function that would return a random color
+## S2. Write a function that would return a random color
 {% codeblock Function getRandomColor() lang:html %}
 <script>
     // function that returns a random rgb color
@@ -77,7 +77,7 @@ JS100-01 轉換背景顏色
 
 > Therefore, `Math.floor(Math.random() * 256)` is going to return a random `integer` ranges from 0 to 255.
 
-### S3-5. Select button, listen to click event, change body's background color
+## S3-5. Select button, listen to click event, change body's background color
 {% codeblock lang:javascript %}
 const btn = document.querySelector("button");
 
@@ -87,9 +87,12 @@ btn.addEventListener('click', function(){
 })
 {% endcodeblock %}
 
-## Full code
+# Full code
 > Don't worry about the CSS code below. We will discuss CSS in another section.
-{% codeblock Select the button lang:html %}
+
+[Demo in Github](https://codinglau.github.io/js100/01-changebgcolor)
+
+{% codeblock lang:html %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -147,7 +150,7 @@ btn.addEventListener('click', function(){
 </div>
 
 <div id="chinese" class="tab-content is-hidden">
-    [网易云音乐](https://music.163.com/) 是一款专注于发现与分享的音乐产品,依托专业音乐人、DJ、好友推荐及社交功能,为用户打造全新的音乐生活。
+    中文翻釋正在編輯中...
 </div>
 
 <script>
