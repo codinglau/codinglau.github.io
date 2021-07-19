@@ -1,20 +1,20 @@
 ---
-title: JS100-01 Change Background Color Randomly
-date: 2021-07-18 19:16:49
+title: JS100 第一關 - 隨機轉換網頁背景顏色
+date: 2021-07-19 23:55:40
+lang: zh-tw
 cover: https://i.imgur.com/M6DvDUn.gif
 categories:
 - Web Development
 - JavaScript
 tags:
+- 中文
 - JavaScript
 - JS100 Challenge
 toc: true
 ---
 
-1st Challenge: To randomly change a website's background color upon a button click
-
 <a href="https://codinglau.github.io/js100/01-changebgcolor" target="_blank">
-    <button class="button is-danger is-rounded is-medium">
+    <button class="button is-success is-rounded is-medium">
         <span class="icon">
         <i class="fab fa-github"></i>
         </span>
@@ -24,29 +24,30 @@ toc: true
 
 <!-- more -->
 
-# Keys to complete this challenge
+# 過關重點
 
-* How could we generate random colors?
+* 怎樣才能產生隨機顏色？
     - [X] [Math.floor()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
     - [X] [Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
     - [X] [rgb()](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgb())
 
-# Possible Steps
+# 步驟
 
-## 1. Add a button to the HTML document
+## 1. 在 HTML 文件裡加入按鈕
 
-{% codeblock HTML Document lang:html %}
+{% codeblock HTML 文件 lang:html %}
 <body>
     <button>click me</button>
 </body>
 {% endcodeblock %}
 
-## 2. Write a function that would return a random color e.g. `rgb(10, 20, 30)` each time when we call it
+## 2. 建立可以隨機產生產顏色的函數
 
-{% codeblock Function getRandomColor() lang:html %}
+例如：呼叫函數時會返回`rgb(10, 20, 30)`
+
+{% codeblock 函數 getRandomColor() lang:html %}
 <script>
-    // function that returns a random rgb color
-    // e.g. rgb(10, 20, 30)
+    // 呼叫函數時會返回`rgb(10, 20, 30)`
     function getRandomColor(){
         const r = Math.floor(Math.random() * 256);
         const g = Math.floor(Math.random() * 256);
@@ -55,31 +56,28 @@ toc: true
     }
 </script>
 {% endcodeblock %}
+> `Math.random()` 會返回 0 到 1 之間的隨機小數，包括 0，但不包括 1。
 
-> The `Math.random()` function returns a floating-point, pseudo-random number in the range 0 to less than 1 (inclusive of 0, but not 1) with approximately uniform distribution over that range.
+> 因此，`Math.random() * 256` 會返回 0 到 256 之間的隨機數 （帶小數點）。
 
-> `Math.random() * 256` would return a random floating number ranges from 0 to 256 (inclusive of 0, but not 256).
+> 然後利用 `Math.floor()` 把使用 `Math.random() * 256` 返回的隨機數變為整數。例如，`Math.random() * 256` 返回 99.8，`Math.floor(Math.random() * 256)` 會將 99.8 變成 99。 
 
-> `Math.floor(floating-number)` would return the largest integer that is smaller than the `floating-number`.
-
-> Therefore, `Math.floor(Math.random() * 256)` is going to return a random `integer` ranges from 0 to 255.
+> 這樣 `Math.floor(Math.random() * 256)` 就會返回 0 到 255 的隨機`整數`。剛好是rgb(r, g, b)裡所需要的數字。
 
 
-## 3. Select the button using JavaScript
-## 4. Listen to the `click` event of the selected button
-##  5. When the button is being clicked, set `<body>`'s background color to the function created in `step 2`
+## 3. 利用 JavaScript 選取按鈕
+## 4. 監聽按鈕被按 `click` 的事件 
+## 5. 當按下按鈕時，把網頁的背景顏色設為等於 `getRandomColor()` 函數返回的隨機顏色
 
 {% codeblock lang:javascript %}
 const btn = document.querySelector("button");
 
-// listen to click event of the button
 btn.addEventListener('click', function(){
     document.body.style.backgroundColor = getRandomColor();
 })
 {% endcodeblock %}
 
-# Complete Source Code
-> Don't worry about the CSS code below. We will discuss CSS in another section.
+# 完整程式碼
 
 {% codeblock lang:html wrap:true %}
 <!DOCTYPE html>
@@ -117,14 +115,12 @@ btn.addEventListener('click', function(){
     <button>click me</button>
 
     <script>
-        const btn = document.querySelector("button");   // select the button
+        const btn = document.querySelector("button");
 
-        // listen to click event of the button
         btn.addEventListener('click', function(){
             document.body.style.backgroundColor = getRandomColor();
         })
 
-        // function that returns a random rgb color
         function getRandomColor(){
             const r = Math.floor(Math.random() * 256);
             const g = Math.floor(Math.random() * 256);
@@ -135,16 +131,3 @@ btn.addEventListener('click', function(){
 </body>
 </html>
 {% endcodeblock %}
-
-
-<!-- <script>
-    function onTabClick(e) {
-        if (!$(e.currentTarget).hasClass('is-active')) {
-            $('.is-active').toggleClass('is-active');
-            $(e.currentTarget).toggleClass('is-active');
-            $('.tab-content.is-block').toggleClass(['is-block', 'is-hidden']);
-            let tabId = $(e.currentTarget).attr("data-id");
-            $(tabId).toggleClass(['is-block', 'is-hidden']);
-        }
-    }
-</script> -->
