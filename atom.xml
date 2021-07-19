@@ -6,7 +6,7 @@
   <link href="https://codinglau.github.io/atom.xml" rel="self"/>
   
   <link href="https://codinglau.github.io/"/>
-  <updated>2021-07-18T18:37:44.800Z</updated>
+  <updated>2021-07-19T17:06:33.369Z</updated>
   <id>https://codinglau.github.io/</id>
   
   <author>
@@ -17,14 +17,69 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>JS100-01 Change Background Color</title>
+    <title>JS100 第一關 - 隨機轉換網頁背景顏色</title>
+    <link href="https://codinglau.github.io/20210719/javascript/js100/01-changebackgroundcolor-zhTw/"/>
+    <id>https://codinglau.github.io/20210719/javascript/js100/01-changebackgroundcolor-zhTw/</id>
+    <published>2021-07-19T15:55:40.000Z</published>
+    <updated>2021-07-19T17:06:33.369Z</updated>
+    
+    
+    <summary type="html">&lt;a href=&quot;https://codinglau.github.io/js100/01-changebgcolor&quot; target=&quot;_blank&quot;&gt;
+    &lt;button class=&quot;button is-success is-rounded is-medium&quot;&gt;
+        &lt;span class=&quot;icon&quot;&gt;
+        &lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt;
+        &lt;/span&gt;
+        &lt;span&gt;Demo&lt;/span&gt;
+    &lt;/button&gt;
+&lt;/a&gt;</summary>
+    
+    
+    
+    <category term="Web Development" scheme="https://codinglau.github.io/categories/Web-Development/"/>
+    
+    <category term="JavaScript" scheme="https://codinglau.github.io/categories/Web-Development/JavaScript/"/>
+    
+    
+    <category term="中文" scheme="https://codinglau.github.io/tags/%E4%B8%AD%E6%96%87/"/>
+    
+    <category term="JavaScript" scheme="https://codinglau.github.io/tags/JavaScript/"/>
+    
+    <category term="JS100 Challenge" scheme="https://codinglau.github.io/tags/JS100-Challenge/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://codinglau.github.io/20210719/hello-world/"/>
+    <id>https://codinglau.github.io/20210719/hello-world/</id>
+    <published>2021-07-19T12:03:53.427Z</published>
+    <updated>2021-07-19T12:03:53.428Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JS100-01 Change Background Color Randomly</title>
     <link href="https://codinglau.github.io/20210718/javascript/js100/01-changebackgroundcolor/"/>
     <id>https://codinglau.github.io/20210718/javascript/js100/01-changebackgroundcolor/</id>
     <published>2021-07-18T11:16:49.000Z</published>
-    <updated>2021-07-18T18:37:44.800Z</updated>
+    <updated>2021-07-19T16:43:35.636Z</updated>
     
     
-    <summary type="html">&lt;p&gt;JS100-01 轉換背景顏色&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;1st Challenge: To randomly change a website’s background color upon a button click&lt;/p&gt;
+&lt;a href=&quot;https://codinglau.github.io/js100/01-changebgcolor&quot; target=&quot;_blank&quot;&gt;
+    &lt;button class=&quot;button is-danger is-rounded is-medium&quot;&gt;
+        &lt;span class=&quot;icon&quot;&gt;
+        &lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt;
+        &lt;/span&gt;
+        &lt;span&gt;Demo&lt;/span&gt;
+    &lt;/button&gt;
+&lt;/a&gt;</summary>
     
     
     
@@ -36,21 +91,6 @@
     <category term="JavaScript" scheme="https://codinglau.github.io/tags/JavaScript/"/>
     
     <category term="JS100 Challenge" scheme="https://codinglau.github.io/tags/JS100-Challenge/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://codinglau.github.io/20210718/hello-world/"/>
-    <id>https://codinglau.github.io/20210718/hello-world/</id>
-    <published>2021-07-17T18:02:28.828Z</published>
-    <updated>2021-07-18T11:45:22.633Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
-    
-    
-    
     
   </entry>
   
