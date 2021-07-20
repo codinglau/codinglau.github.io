@@ -1,5 +1,5 @@
 ---
-title: JS100-01 Change Background Color Randomly
+title: JS100-01 Change Background Color
 date: 2021-07-18 19:16:49
 cover: https://i.imgur.com/M6DvDUn.gif
 categories:
@@ -41,13 +41,13 @@ toc: true
 </body>
 {% endcodeblock %}
 
-## 2. Write a function that would return a random color e.g. `rgb(10, 20, 30)` each time when we call it
+## 2. Write a JavaScript function that would return a random color e.g. `rgb(10, 20, 30)`
 
 {% codeblock Function getRandomColor() lang:html %}
 <script>
     // function that returns a random rgb color
     // e.g. rgb(10, 20, 30)
-    function getRandomColor(){
+    function randomRgbColor(){
         const r = Math.floor(Math.random() * 256);
         const g = Math.floor(Math.random() * 256);
         const b = Math.floor(Math.random() * 256);
@@ -67,75 +67,77 @@ toc: true
 
 ## 3. Select the button using JavaScript
 ## 4. Listen to the `click` event of the selected button
-##  5. When the button is being clicked, set `<body>`'s background color to the function created in `step 2`
+## 5. When the button is being clicked, set `<body>`'s background color
 
 {% codeblock lang:javascript %}
-const btn = document.querySelector("button");
+const btn = document.querySelector('button');   // select the button
 
 // listen to click event of the button
 btn.addEventListener('click', function(){
-    document.body.style.backgroundColor = getRandomColor();
+    document.body.style.backgroundColor = randomRgbColor();
 })
 {% endcodeblock %}
 
 # Complete Source Code
-> Don't worry about the CSS code below. We will discuss CSS in another section.
 
-{% codeblock lang:html wrap:true %}
+{% codeblock index.html lang:html %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>JS100 Challenge 01 - Change Background Color</title>
-    <style>
-        body {
-            padding: 0;
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        button {
-            cursor: pointer;
-            background-color: #000;
-            color: #fff;
-            padding: .5rem;
-            border: 1px solid #fff;
-            border-radius: .5rem;
-        }
-
-        button:hover {
-            background-color: #fa0;
-        }
-    </style>
 </head>
 <body>
     <button>click me</button>
 
-    <script>
-        const btn = document.querySelector("button");   // select the button
-
-        // listen to click event of the button
-        btn.addEventListener('click', function(){
-            document.body.style.backgroundColor = getRandomColor();
-        })
-
-        // function that returns a random rgb color
-        function getRandomColor(){
-            const r = Math.floor(Math.random() * 256);
-            const g = Math.floor(Math.random() * 256);
-            const b = Math.floor(Math.random() * 256);
-            return `rgb(${r}, ${g}, ${b})`;
-        }
-    </script>
+    <script src="./app.js"></script>
 </body>
 </html>
 {% endcodeblock %}
 
+{% codeblock style.css lang:css %}
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    padding: .5rem;
+    border: 1px solid #fff;
+    border-radius: .5rem;
+}
+
+button:hover {
+    background-color: #fa0;
+}
+{% endcodeblock %}
+
+{% codeblock app.js lang:javascript %}
+const btn = document.querySelector('button');   // select the button
+
+// listen to click event of the button
+btn.addEventListener('click', function(){
+    document.body.style.backgroundColor = randomRgbColor();
+})
+
+// function that returns a random rgb color
+function randomRgbColor(){
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+    return `rgb(${r}, ${g}, ${b})`;
+}
+{% endcodeblock %}
 
 <!-- <script>
     function onTabClick(e) {

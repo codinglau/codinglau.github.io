@@ -118,6 +118,7 @@ feed:
   template:
 
 # Deployment
+# hexo clean && hexo deploy
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
