@@ -2,28 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://codinglau.github.io/useful-hexo-commands/</loc>
+    <loc>https://codinglau.github.io/javascript/js100/index/</loc>
     
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-22</lastmod>
     
   </url>
   
   <url>
     <loc>https://codinglau.github.io/javascript/js100/02-hexchangebackgroundcolor/</loc>
     
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-22</lastmod>
     
   </url>
   
   <url>
     <loc>https://codinglau.github.io/javascript/js100/01-changebackgroundcolor/</loc>
     
-    <lastmod>2021-07-20</lastmod>
+    <lastmod>2021-07-22</lastmod>
     
   </url>
   
   <url>
     <loc>https://codinglau.github.io/javascript/js100/01-changebackgroundcolor-zhTw/</loc>
+    
+    <lastmod>2021-07-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://codinglau.github.io/useful-hexo-commands/</loc>
     
     <lastmod>2021-07-20</lastmod>
     
@@ -68,6 +75,13 @@
   
   <url>
     <loc>https://codinglau.github.io/tags/JS100-Challenge/</loc>
+    <lastmod>2021-07-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://codinglau.github.io/tags/Bulma/</loc>
     <lastmod>2021-07-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

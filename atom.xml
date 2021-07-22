@@ -6,7 +6,7 @@
   <link href="https://codinglau.github.io/atom.xml" rel="self"/>
   
   <link href="https://codinglau.github.io/"/>
-  <updated>2021-07-20T15:12:17.817Z</updated>
+  <updated>2021-07-22T15:14:58.016Z</updated>
   <id>https://codinglau.github.io/</id>
   
   <author>
@@ -17,15 +17,62 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>JavaScript 100+ Projects Challenge</title>
+    <link href="https://codinglau.github.io/javascript/js100/index/"/>
+    <id>https://codinglau.github.io/javascript/js100/index/</id>
+    <published>2021-07-22T15:08:48.000Z</published>
+    <updated>2021-07-22T15:14:58.016Z</updated>
+    
+    
+    <summary type="html">&lt;div class=&quot;box mt-5&quot;&gt;
+    &lt;nav class=&quot;level is-mobile&quot;&gt;
+        &lt;div class=&quot;level-item has-text-centered&quot;&gt;
+            &lt;div&gt;
+            &lt;p class=&quot;heading&quot;&gt;Levels&lt;/p&gt;
+            &lt;p class=&quot;title&quot;&gt;100+&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;level-item has-text-centered&quot;&gt;
+            &lt;div&gt;
+            &lt;p class=&quot;heading&quot;&gt;Completed&lt;/p&gt;
+            &lt;p class=&quot;title&quot;&gt;4&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;level-item has-text-centered&quot;&gt;
+            &lt;div&gt;
+            &lt;p class=&quot;heading&quot;&gt;Likes&lt;/p&gt;
+            &lt;p class=&quot;title&quot;&gt;721&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;progress class=&quot;progress is-link&quot; value=&quot;4&quot; max=&quot;100&quot;&gt;60%&lt;/progress&gt;
+&lt;/div&gt;</summary>
+    
+    
+    
+    <category term="Web Development" scheme="https://codinglau.github.io/categories/Web-Development/"/>
+    
+    <category term="JavaScript" scheme="https://codinglau.github.io/categories/Web-Development/JavaScript/"/>
+    
+    
+    <category term="JavaScript" scheme="https://codinglau.github.io/tags/JavaScript/"/>
+    
+    <category term="JS100 Challenge" scheme="https://codinglau.github.io/tags/JS100-Challenge/"/>
+    
+    <category term="Bulma" scheme="https://codinglau.github.io/tags/Bulma/"/>
+    
+  </entry>
+  
+  <entry>
     <title>JS100-02 Hex Change Background Color</title>
     <link href="https://codinglau.github.io/javascript/js100/02-hexchangebackgroundcolor/"/>
     <id>https://codinglau.github.io/javascript/js100/02-hexchangebackgroundcolor/</id>
     <published>2021-07-20T13:49:01.000Z</published>
-    <updated>2021-07-20T15:12:17.817Z</updated>
+    <updated>2021-07-22T15:07:31.550Z</updated>
     
     
     <summary type="html">&lt;p&gt;2nd Challenge: To randomly change a website’s background color upon a button click&lt;/p&gt;
-&lt;a href=&quot;https://codinglau.github.io/js100/02-hexchangebgcolor&quot; target=&quot;_blank&quot;&gt;
+&lt;a href=&quot;https://codinglau.github.io/js100/01-change-bgcolor&quot; target=&quot;_blank&quot;&gt;
     &lt;button class=&quot;button is-danger is-rounded is-medium&quot;&gt;
         &lt;span class=&quot;icon&quot;&gt;
         &lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt;
@@ -52,10 +99,10 @@
     <link href="https://codinglau.github.io/javascript/js100/01-changebackgroundcolor-zhTw/"/>
     <id>https://codinglau.github.io/javascript/js100/01-changebackgroundcolor-zhTw/</id>
     <published>2021-07-19T15:55:40.000Z</published>
-    <updated>2021-07-20T13:42:51.899Z</updated>
+    <updated>2021-07-22T15:06:46.828Z</updated>
     
     
-    <summary type="html">&lt;a href=&quot;https://codinglau.github.io/js100/01-changebgcolor&quot; target=&quot;_blank&quot;&gt;
+    <summary type="html">&lt;a href=&quot;https://codinglau.github.io/js100/01-change-bgcolor&quot; target=&quot;_blank&quot;&gt;
     &lt;button class=&quot;button is-success is-rounded is-medium&quot;&gt;
         &lt;span class=&quot;icon&quot;&gt;
         &lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt;
@@ -103,11 +150,11 @@
     <link href="https://codinglau.github.io/javascript/js100/01-changebackgroundcolor/"/>
     <id>https://codinglau.github.io/javascript/js100/01-changebackgroundcolor/</id>
     <published>2021-07-18T11:16:49.000Z</published>
-    <updated>2021-07-20T15:11:07.730Z</updated>
+    <updated>2021-07-22T15:06:55.206Z</updated>
     
     
     <summary type="html">&lt;p&gt;1st Challenge: To randomly change a website’s background color upon a button click&lt;/p&gt;
-&lt;a href=&quot;https://codinglau.github.io/js100/01-changebgcolor&quot; target=&quot;_blank&quot;&gt;
+&lt;a href=&quot;https://codinglau.github.io/js100/01-change-bgcolor&quot; target=&quot;_blank&quot;&gt;
     &lt;button class=&quot;button is-danger is-rounded is-medium&quot;&gt;
         &lt;span class=&quot;icon&quot;&gt;
         &lt;i class=&quot;fab fa-github&quot;&gt;&lt;/i&gt;
