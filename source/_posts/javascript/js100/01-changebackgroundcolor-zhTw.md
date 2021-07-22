@@ -13,7 +13,7 @@ tags:
 toc: true
 ---
 
-<a href="https://codinglau.github.io/js100/01-changebgcolor" target="_blank">
+<a href="https://codinglau.github.io/js100/01-change-bgcolor" target="_blank">
     <button class="button is-success is-rounded is-medium">
         <span class="icon">
         <i class="fab fa-github"></i>

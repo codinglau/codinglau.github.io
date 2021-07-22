@@ -13,7 +13,7 @@ toc: true
 
 2nd Challenge: To randomly change a website's background color upon a button click
 
-<a href="https://codinglau.github.io/js100/02-hexchangebgcolor" target="_blank">
+<a href="https://codinglau.github.io/js100/01-change-bgcolor" target="_blank">
     <button class="button is-danger is-rounded is-medium">
         <span class="icon">
         <i class="fab fa-github"></i>
