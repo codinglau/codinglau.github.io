@@ -117,6 +117,13 @@ feed:
   autodiscovery: true
   template:
 
+sitemap:
+  path: sitemap.xml
+  template: ./sitemap_template.xml
+  rel: true
+  tags: true
+  categories: true
+
 # Deployment
 # hexo clean && hexo deploy
 ## Docs: https://hexo.io/docs/one-command-deployment
