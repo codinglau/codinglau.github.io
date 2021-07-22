@@ -113,9 +113,13 @@ navbar:
         Tags: /tags
     # Links to be shown on the right of the navigation bar
     links:
-        Download on GitHub:
+        GitHub:
             icon: fab fa-github
             url: 'https://github.com/codinglau'
+
+        Sitemap:
+            icon: fas fa-sitemap
+            url: /sitemap.xml
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
