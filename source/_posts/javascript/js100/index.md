@@ -39,7 +39,7 @@ tags:
 <div class="box">
     <div class="tile is-ancestor">
         <div class="tile is-parent">
-            <a href="./01-change-bgcolor/index.html" target="_blank" class="tile is-child notification is-warning">
+            <a href="https://codinglau.github.io/js100/01-change-bgcolor/index.html" target="_blank" class="tile is-child notification is-warning">
                 <p class="title">01</p>
                 <p class="subtitle">Change Background Color</p>
                 <div class="tags mt-6">
@@ -50,7 +50,7 @@ tags:
             </a>
         </div>
         <div class="tile is-parent">
-            <a href="./02-hex-change-bgcolor/index.html" target="_blank" class="tile is-child notification is-danger">
+            <a href="https://codinglau.github.io/js100/02-hex-change-bgcolor/index.html" target="_blank" class="tile is-child notification is-danger">
                 <p class="title">02</p>
                 <p class="subtitle">Hex Change Background Color</p>
                 <div class="tags mt-6">
@@ -61,7 +61,7 @@ tags:
             </a>
         </div>
         <div class="tile is-parent">
-            <a href="./03-random-quotes/index.html" target="_blank" class="tile is-child notification is-info">
+            <a href="https://codinglau.github.io/js100/03-random-quotes/index.html" target="_blank" class="tile is-child notification is-info">
                 <p class="title">03</p>
                 <p class="subtitle">Random Quotes</p>
                 <div class="tags mt-6">
@@ -74,7 +74,7 @@ tags:
     </div>
     <div class="tile is-ancestor">
         <div class="tile is-parent is-6">
-            <a href="./04-pass-the-message/index.html" target="_blank" class="tile is-child notification is-dark">
+            <a href="https://codinglau.github.io/js100/04-pass-the-message/index.html" target="_blank" class="tile is-child notification is-dark">
                 <p class="title">04</p>
                 <p class="subtitle">Display The Message As You Type</p>
                 <div class="tags mt-6">
