@@ -21,7 +21,7 @@ tags:
         <div class="level-item has-text-centered">
             <div>
             <p class="heading">Completed</p>
-            <p class="title">4</p>
+            <p class="title">5</p>
             </div>
         </div>
         <div class="level-item has-text-centered">
@@ -31,7 +31,7 @@ tags:
             </div>
         </div>
     </nav>
-    <progress class="progress is-link" value="4" max="100">60%</progress>
+    <progress class="progress is-link" value="5" max="100"></progress>
 </div>
 
 <!-- more -->
@@ -79,6 +79,16 @@ tags:
                 <p class="subtitle">Display The Message As You Type</p>
                 <div class="tags mt-6">
                     <span class="tag is-light">addEventListener('input')</span>
+                </div>
+            </a>
+        </div>
+        <div class="tile is-parent is-6">
+            <a href="https://codinglau.github.io/js100/05-counter/index.html" target="_blank" class="tile is-child notification is-link">
+                <p class="title">05</p>
+                <p class="subtitle">Counter</p>
+
+                <div class="tags mt-6">
+                    <span class="tag is-light">addEventListener('click')</span>
                 </div>
             </a>
         </div>
