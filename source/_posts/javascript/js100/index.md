@@ -1,6 +1,7 @@
 ---
 title: JavaScript 100+ Projects Challenge
 date: 2021-07-22 23:08:48
+cover: https://picsum.photos/200/300/?blur=2
 categories:
 - Web Development
 - JavaScript
@@ -38,7 +39,7 @@ tags:
 
 <div class="box">
     <div class="tile is-ancestor">
-        <div class="tile is-parent">
+        <div class="tile is-parent is-4">
             <a href="https://codinglau.github.io/js100/01-change-bgcolor/index.html" target="_blank" class="tile is-child notification is-warning">
                 <p class="title">01</p>
                 <p class="subtitle">Change Background Color</p>
@@ -49,25 +50,25 @@ tags:
                 </div>
             </a>
         </div>
-        <div class="tile is-parent">
+        <div class="tile is-parent is-4">
             <a href="https://codinglau.github.io/js100/02-hex-change-bgcolor/index.html" target="_blank" class="tile is-child notification is-danger">
                 <p class="title">02</p>
                 <p class="subtitle">Hex Change Background Color</p>
                 <div class="tags mt-6">
                     <span class="tag is-light">Math.floor()</span>
                     <span class="tag is-light">Math.random()</span>
-                    <span class="tag is-light">Number.prototype.toString()</span>
+                    <span class="tag is-light">Number.toString()</span>
                 </div>
             </a>
         </div>
-        <div class="tile is-parent">
+        <div class="tile is-parent is-4">
             <a href="https://codinglau.github.io/js100/03-random-quotes/index.html" target="_blank" class="tile is-child notification is-info">
                 <p class="title">03</p>
                 <p class="subtitle">Random Quotes</p>
                 <div class="tags mt-6">
                     <span class="tag is-light">Array</span>
                     <span class="tag is-light">Object</span>
-                    <span class="tag is-light">Conditional (ternary) operator</span>
+                    <span class="tag is-light">Ternary operator</span>
                 </div>
             </a>
         </div>
@@ -86,7 +87,6 @@ tags:
             <a href="https://codinglau.github.io/js100/05-counter/index.html" target="_blank" class="tile is-child notification is-link">
                 <p class="title">05</p>
                 <p class="subtitle">Counter</p>
-
                 <div class="tags mt-6">
                     <span class="tag is-light">addEventListener('click')</span>
                 </div>
