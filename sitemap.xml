@@ -60,14 +60,14 @@
 
   
   <url>
-    <loc>https://codinglau.github.io/tags/Hexo/</loc>
+    <loc>https://codinglau.github.io/tags/Vuex/</loc>
     <lastmod>2021-07-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://codinglau.github.io/tags/Vuex/</loc>
+    <loc>https://codinglau.github.io/tags/Hexo/</loc>
     <lastmod>2021-07-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -104,14 +104,14 @@
 
   
   <url>
-    <loc>https://codinglau.github.io/categories/Blog-Framework/</loc>
+    <loc>https://codinglau.github.io/categories/Web-Development/</loc>
     <lastmod>2021-07-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://codinglau.github.io/categories/Web-Development/</loc>
+    <loc>https://codinglau.github.io/categories/Blog-Framework/</loc>
     <lastmod>2021-07-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
