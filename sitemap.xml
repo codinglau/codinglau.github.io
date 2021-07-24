@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://codinglau.github.io/vuex/vuex-state/</loc>
+    
+    <lastmod>2021-07-24</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://codinglau.github.io/javascript/js100/index/</loc>
     
     <lastmod>2021-07-23</lastmod>
@@ -46,43 +53,50 @@
 
   <url>
     <loc>https://codinglau.github.io/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://codinglau.github.io/tags/Hexo/</loc>
+    <lastmod>2021-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://codinglau.github.io/tags/Vuex/</loc>
+    <lastmod>2021-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://codinglau.github.io/tags/%E4%B8%AD%E6%96%87/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://codinglau.github.io/tags/JavaScript/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://codinglau.github.io/tags/JS100-Challenge/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://codinglau.github.io/tags/Bulma/</loc>
-    <lastmod>2021-07-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://codinglau.github.io/tags/Hexo/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -90,22 +104,29 @@
 
   
   <url>
+    <loc>https://codinglau.github.io/categories/Blog-Framework/</loc>
+    <lastmod>2021-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://codinglau.github.io/categories/Web-Development/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://codinglau.github.io/categories/Web-Development/JavaScript/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <lastmod>2021-07-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://codinglau.github.io/categories/Blog-Framework/</loc>
-    <lastmod>2021-07-23</lastmod>
+    <loc>https://codinglau.github.io/categories/Web-Development/Vuex/</loc>
+    <lastmod>2021-07-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

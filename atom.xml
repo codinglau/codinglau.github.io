@@ -6,7 +6,7 @@
   <link href="https://codinglau.github.io/atom.xml" rel="self"/>
   
   <link href="https://codinglau.github.io/"/>
-  <updated>2021-07-23T14:44:15.500Z</updated>
+  <updated>2021-07-24T09:06:00.012Z</updated>
   <id>https://codinglau.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vuex - State</title>
+    <link href="https://codinglau.github.io/vuex/vuex-state/"/>
+    <id>https://codinglau.github.io/vuex/vuex-state/</id>
+    <published>2021-07-24T08:46:53.000Z</published>
+    <updated>2021-07-24T09:06:00.012Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-Single-State-Tree&quot;&gt;&lt;a href=&quot;#1-Single-State-Tree&quot; class=&quot;headerlink&quot; title=&quot;1. Single State Tree&quot;&gt;&lt;/a&gt;1. Single State Tree&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;A &lt;code&gt;single state tree&lt;/code&gt; is a single object which Vuex uses to store all your application level state.&lt;/li&gt;
+&lt;li&gt;It also serves as the &lt;code&gt;single source of truth&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="Web Development" scheme="https://codinglau.github.io/categories/Web-Development/"/>
+    
+    <category term="Vuex" scheme="https://codinglau.github.io/categories/Web-Development/Vuex/"/>
+    
+    
+    <category term="Vuex" scheme="https://codinglau.github.io/tags/Vuex/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaScript 100+ Projects Challenge</title>
