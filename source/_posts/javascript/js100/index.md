@@ -22,7 +22,7 @@ tags:
         <div class="level-item has-text-centered">
             <div>
             <p class="heading">Completed</p>
-            <p class="title">5</p>
+            <p class="title">6</p>
             </div>
         </div>
         <div class="level-item has-text-centered">
@@ -32,7 +32,7 @@ tags:
             </div>
         </div>
     </nav>
-    <progress class="progress is-link" value="5" max="100"></progress>
+    <progress class="progress is-link" value="6" max="100"></progress>
 </div>
 
 <!-- more -->
@@ -89,6 +89,18 @@ tags:
                 <p class="subtitle">Counter</p>
                 <div class="tags mt-6">
                     <span class="tag is-light">addEventListener('click')</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="tile is-ancestor">
+        <div class="tile is-parent is-vertical is-4">
+            <a href="https://codinglau.github.io/js100/06-background-image-slider/index.html" target="_blank" class="tile is-child notification is-secondary">
+                <p class="title">06</p>
+                <p class="subtitle">Background Image Slider</p>
+                <div class="tags mt-6">
+                    <span class="tag is-dark">Array</span>
+                    <span class="tag is-dark">classList.toggle()</span>
                 </div>
             </a>
         </div>
